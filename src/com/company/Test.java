@@ -15,5 +15,7 @@ public class Test {
         Mat m = Highgui.imread(f.getAbsolutePath());
         System.out.println("OpenCV Mat data:\n" + m.dump());
         System.out.println("OpenCV Mat cols and rows :\n" + m.cols() + " "+ m.rows());
+
+        System.out.print("A doua modificare adusa fisierului");
     }
 }
